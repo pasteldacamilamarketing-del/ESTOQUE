@@ -1,0 +1,14 @@
+{
+  "name": "Processos — Pastel da Camila",
+  "short_name": "Processos",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "description": "Ferramenta operacional de gestão de estoque da Pastel da Camila.",
+  "icons": [
+    {"src":"./assets/brand/favicon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"./assets/brand/apple-touch-icon.png","sizes":"180x180","type":"image/png"}
+  ]
+}
