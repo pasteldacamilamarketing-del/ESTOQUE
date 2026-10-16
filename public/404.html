@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Processos — Pastel da Camila</title>
+  <script>
+    (function () {
+      var base = '/ESTOQUE/';
+      var path = location.pathname.indexOf(base) === 0
+        ? location.pathname.slice(base.length)
+        : '';
+      var target = base + '#/' + path.replace(/^\/+/, '');
+      if (location.search) target += location.search;
+      location.replace(target);
+    }());
+  </script>
+</head>
+<body></body>
+</html>

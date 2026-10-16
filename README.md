@@ -1,16 +1,17 @@
-# PROCESSOS — PASTEL DA CAMILA • V1.2
+# Processos — Pastel da Camila
 
-Ferramenta responsiva de operação, aprendizagem, fluxos e auditoria do estoque.
+Versão V1.3 de produção para GitHub Pages.
 
-## Uso
+## Publicação
+O projeto usa React + Vite e **não deve ser publicado diretamente pela raiz do código-fonte**.
 
-- `npm install`
-- `npm run dev` para desenvolvimento
-- `npm run verify` para validar a base
-- `npm run build` para gerar `dist/`
+No GitHub:
+1. envie todo o conteúdo desta pasta para a raiz do repositório `ESTOQUE`;
+2. abra **Settings → Pages**;
+3. em **Source**, escolha **GitHub Actions**;
+4. abra **Actions** e aguarde `Publicar Processos Pastel da Camila` concluir em verde.
 
-## GitHub Pages
+URL de produção:
+`https://pasteldacamilamarketing-del.github.io/ESTOQUE/`
 
-O workflow em `.github/workflows/deploy-pages.yml` publica automaticamente a branch `main`.
-
-Leia `docs/GUIA_PUBLICACAO_GITHUB.md`.
+O workflow gera e publica automaticamente a pasta `dist`.
