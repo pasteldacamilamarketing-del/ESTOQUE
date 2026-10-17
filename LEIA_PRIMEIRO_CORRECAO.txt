@@ -1,0 +1,18 @@
+CORREÇÃO V2.1 — 17/10/2026
+
+CAUSA: app.js em render() usava fluxos (identificador inexistente) no mapa de páginas, embora a função se chame flows. O erro interrompia todas as rotas.
+
+CORREÇÃO: trocar fluxos por fluxos:flows no mapa.
+
+INSTALAÇÃO MAIS SEGURA:
+1. No GitHub, abra ESTOQUE > app.js > Editar (ícone lápis).
+2. Encontre: diagnostico:diagnosis,aprender:()=>lessons(id),fluxos,ajuda:help
+3. Troque SOMENTE por: diagnostico:diagnosis,aprender:()=>lessons(id),fluxos:flows,ajuda:help
+4. Salve (Commit changes).
+5. Aguarde Pages e recarregue com Ctrl+Shift+R.
+
+ALTERNATIVA: substitua app.js pelo arquivo corrigido incluído neste ZIP. O restante da base não precisa ser alterado.
+
+TESTE: foram executadas simulações locais de renderização das 11 rotas: inicio, hoje, fazer, detalhe receber, jornada, treino, diagnostico, aprender, licao, fluxos e ajuda. PASSARAM. Teste visual em navegador real ainda pendente.
+
+Este pacote NÃO altera procedimentos, regras, fotos nem bases do projeto.
