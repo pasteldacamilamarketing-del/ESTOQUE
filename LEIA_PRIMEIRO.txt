@@ -1,0 +1,9 @@
+PUBLICAÇÃO GITHUB PAGES — ESTOQUE
+
+Envie o CONTEÚDO desta pasta para a RAIZ da branch main do repositório ESTOQUE. Não envie a pasta externa como subpasta.
+
+Em Settings > Pages: Deploy from a branch, main, /(root).
+
+Este pacote dispensa npm, React, Vite e GitHub Actions. Acesse https://pasteldacamilamarketing-del.github.io/ESTOQUE/
+
+Não apaga documentos do projeto. Preserve versões existentes em backup. Esta entrega reproduz a base siteData.js da V1.3, que contém 22 processos. Os 25 itens do escopo da sessão ainda exigem auditoria de cobertura.
