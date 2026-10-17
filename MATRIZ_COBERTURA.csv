@@ -1,0 +1,23 @@
+id,categoria,titulo,executor,status_legado,fonte_saipos_ids,fonte_local,status_v3
+receber,Entrada,Receber mercadoria,Débora,VALIDADO,notas;conciliacao,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+entrada-nota,Entrada,Lançar nota de entrada,Débora,DOCUMENTADO,notas;conciliacao;financeiro,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+conciliar-nota,Entrada,Conciliar nota com o estoque,Débora,DOCUMENTADO,conciliacao;conversao;ingredientes;movimentos,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+cadastrar-ingrediente,Base,Cadastrar ingrediente ou insumo,Débora,VALIDADO,ingredientes;grupos,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+conversao,Base,Definir conversão de unidade,Débora,TESTADO,conversao;custo_medio,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+custo-estranho,Controle,Investigar saldo ou valor absurdo,Débora,VALIDADO,movimentos;custo_medio;historico,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+armazenar,Armazenamento,Armazenar e controlar validade,Débora,VALIDADO,,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+cozinha,Produção,Atender pedido da cozinha,Débora,REGRA FÍSICA VALIDADA / REGISTRO PENDENTE,beneficiados;preproducao,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+beneficiamento,Produção,Registrar beneficiamento / pré-produção,Débora,DOCUMENTADO + TESTES REAIS POR ITEM,beneficiados;preproducao;movimentos,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+ficha-tecnica,Produção,Criar e testar ficha técnica,Débora,VALIDADO / TESTAR CADA FICHA,fichas;beneficiados;cardapio,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+bela-vista,Distribuição,Abastecer Bela Vista,Débora na origem,DOCUMENTADO / EXECUTOR DO DESTINO PENDENTE,transferencia;conciliacao;movimentos,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+feira,Distribuição,Enviar mercadoria para feira,Débora,REGRA OPERACIONAL PROVISÓRIA,movimentos;perdas;custo_medio,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+quiosque,Distribuição,Abastecer quiosque,Débora,PENDENTE DE ARQUITETURA,,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+retorno,Retorno e perdas,Conferir retorno,Débora,VALIDADO FÍSICO / MOVIMENTO FEIRA PENDENTE,,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+perda,Retorno e perdas,Registrar e analisar perda,Débora,DOCUMENTADO,perdas;cmv_real,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+contagem,Controle semanal,Fazer contagem obrigatória de segunda,Débora,TESTADO,contagem_whatsapp;contagem,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+auditoria-segunda,Controle semanal,Auditar contagem às 14h,Bruna,TESTADO,contagem;movimentos,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+divergencia,Controle,Investigar diferença de estoque,Débora,VALIDADO,movimentos;historico;contagem,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+ajuste,Controle,Corrigir saldo após autorização,Débora executa,TESTADO COMO REGRA DE GOVERNANÇA,contagem;movimentos,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+compras,Compras,Gerar lista de compras,Débora,DOCUMENTADO / META FINANCEIRA PENDENTE,compras;ordem_compra,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+relatorio,Gestão,Enviar relatório semanal para Camila,Débora,TESTADO,historico;cmv_real;compras,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
+indisponibilidade,Exceções,Saipos ou internet indisponível,Débora,REGRA DE PARADA,,V2+SAVE_SESSION,REVISÃO NECESSÁRIA
