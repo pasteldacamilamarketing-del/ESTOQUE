@@ -1,0 +1,25 @@
+PROCESSOS PASTEL DA CAMILA — V2 PILOTO GUIADO
+
+Esta entrega preserva os 22 processos, as lições e os dados existentes. Novos módulos: Home, jornada guiada, treino de conversão, diagnóstico, rotina sem fallback indevido, busca com sinônimos.
+
+PUBLICAÇÃO
+1. Faça backup do repositório antes de substituir arquivos.
+2. Extraia o ZIP; carregue o CONTEÚDO extraído para a raiz da branch main do repositório ESTOQUE (não a pasta externa).
+3. Substitua index.html, app.js e style.css. Mantenha siteData.js e a pasta assets no mesmo nível.
+4. Aguarde a ação GitHub Pages concluir e abra https://pasteldacamilamarketing-del.github.io/ESTOQUE/#/inicio
+5. Teste Início, Rotinas, Fazer, Aprender, Fluxos e Ajuda, mais a jornada, o treino e o diagnóstico no computador e celular.
+
+LIMITAÇÕES
+É um piloto de treinamento e orientação, não integração com Saipos. Não registra tarefas, evidências ou ajustes reais.
+A auditoria quinzenal não dispõe de data-base formal; não é calculada artificialmente.
+Pendências operacionais seguem pendentes para homologação.
+Os fluxos gerais permanecem listas navegáveis; decisões Sim/Não ficam nos procedimentos. O redesenho de diagramas interativos completos e a diferenciação profunda de perfis pertencem à próxima expansão.
+
+SUGESTÃO DE TESTES
+- Início abre por padrão.
+- Rotinas em sábado: nenhuma rotina semanal específica de sábado, sem anunciar a de segunda como se fosse de hoje.
+- Buscar XML, NF, tara e termos sem acentos.
+- Jornada não avança sem confirmação de leitura e não afirma ter executado o trabalho.
+- Conversão: 48 é a resposta correta; outras opções recebem feedback.
+- Diagnóstico: divergência apresenta ponto de parada.
+- Foco de teclado e telas 320px, 375px, 700px e 1280px.
